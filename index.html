@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-them="light"git>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodCity</title>
+    <link rel="stylesheet" href="home/index.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script&family=Dosis:wght@300&family=Gochi+Hand&family=Pacifico&family=Patrick+Hand&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet"
+    />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/> 
+  </head>
+  <body>
+    <!-- Start Header -->
+      <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png">
+            </div>
+              <div class="navbar">
+                <div class="icons">
+                  <i class="fas fa-hamburger burgerIcon"></i>
+                </div>
+                  <ul class="navLinks">
+                    <li> <a href="#home" > Home</a></li>
+                    <li> <a href="#about-us"> About Us</a></li>
+                    <li> <a href="#meals">Meals</a></li>
+                    <li> <a href="#our-experts"> Our Experts</a></li>
+                    <li> <a href="#contact-us">Contact Us</a></li>
+                  </ul>
+                </div>
+        </nav>
+      </header>
+  <!-- End Header -->
+  
+  <!-- Start Home Section -->
+  <section id="home">
+    <h2 class="title-home">Welcome to</h2>
+    <h1 class="title-resturaunt">FoodCity</h1>
+  </section>
+  <a href="./menu/menu.html" class="menuBtn" >Go to Menu</a>
+  <!-- End Home Section -->
+
+  <!-- Start About Us Section  -->
+  <section id="about-us">
+    <div class="image">
+      <img class="chef" src="assets/chef.jpg" alt="Chef Photo"/>
+    </div>
+    <div class="text">
+      <h1>About Us</h1>
+      <p>Restaurant is a place for simplicity. Good food, and good service. 
+        Simple is the name of the game, and we’re good at finding it in all the right places,
+        even in your dining experience. We’re a small group from Denver.</p>
+    </div>
+  </section>
+  <!-- End About Us Section  -->
+
+  <!-- Start Meals Section  -->
+  <section id="meals">
+    <div class="overlay"></div>
+    <div class="items">
+      <div class="item breakfast">
+        <i class="fas fa-egg-fried fa-3x"></i>
+        <p>Breakfast</p>
+        <p>7</p>
+      </div>
+      <div class="item lunch">
+        <i class="fas fa-turkey fa-3x"></i>
+        <p>Lunch</p>
+        <p>42</p>
+      </div>
+      <div class="item dinner">
+        <i class="fas fa-shish-kebab fa-3x"></i>
+        <p>Dinner</p>
+        <p>36</p>
+      </div>
+      <div class="item drinks">
+        <i class="fas fa-wine-glass-alt fa-3x"></i>
+        <p>Drinks</p>
+        <p>50</p>
+      </div>
+      <div class="item desserts">
+        <i class="fas fa-pie fa-3x"></i>
+        <p>Desserts</p>
+        <p>50</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Meals Section  -->
+   <!-- Start Our Experts Section -->
+   <section id="our-experts">
+    <h1 class="title-experts">Our Experts</h1>
+    <div class="chefs">
+    <div class="chef">
+      <img src="assets/chef1.png" alt="">
+      <h4>Burak sheref</h4>
+    <p>Burak sheref is a Canadian chef, he was working in Mcdonald's
+         group restaurants, he has special recipes that he created,
+         he has a smiling face with the clients.</p>
+    </div>
+
+      <div class="chef">
+      <img src="assets/chef2.png" alt="">
+      <h4>John ivan </h4>
+    <p>John ivan is a British chef, he was working in Mcdonald's
+         group restaurants, he has special recipes that he created,
+         he has a smiling face with the clients.</p>
+    </div>
+
+    <div class="chef">
+      <img src="assets/chef3.png" alt="">
+      <h4>Suzaan clarke</h4>
+    <p>Suzan clarke is a American chef, he was working in Mcdonald's
+         group restaurants, he has special recipes that he created,
+          he has a smiling face with the clients.</p>
+    </div>
+    </div>
+</section>
+<!-- End Our Experts Section -->
+
+
+<!-- Start Contact us Section -->
+<section id="contact-us">
+  <div class="container">
+      <div class="title"><h2>Contact Us</h2></div>
+      <form>
+          <input type="text" class="name-field" placeholder="Your Name">
+          <input type="text" class="email-field" placeholder="Your Email">
+          <textarea  placeholder="Your Message" class="message-field"></textarea>
+          <button class="submitBtn">Submit</button>
+      </form>
+  </div>
+</section>
+
+<div class="message-thank">
+  <h1> Thanks for Your Feedback </h1> <br>
+  <i class="fas fa-heart"></i>
+</div>
+
+<!-- End Contact us Section -->
+<!-- Start Footer Section -->
+
+<footer>
+  <div class="footer-content">
+      <ul class="social-icons">
+          <li> <i class="fab fa-twitter"></i> </li>
+          <li> <i class="fab fa-facebook"></i> </li>
+          <li> <i class="fab fa-instagram"></i> </li>
+      </ul>
+      <p> @FoodCity </p>
+  </div>
+</footer>
+<!-- End Footer Section -->
+
+    <script src="home/index.js"></script>
+</body>
+</html>
